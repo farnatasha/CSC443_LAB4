@@ -48,7 +48,7 @@
     echo "<p> Thank you, <b>".$_POST["name"]. " for the following comments: <br/> <tt>".
     $_POST["comments"]." </tt> <p>We will reply to you at <i>".$_POST["email"].
     " </i></p>";
-    echo $message;
+    echo $message; }
     ?>
 </body>
 </html>
